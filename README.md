@@ -1,4 +1,5 @@
-# selenium-yahoo-emailer - Sends an email from an yahoo email address by using selenium.
+# selenium-yahoo-emailer - 
+This script sends an email from an yahoo email address by using selenium.
 
 This script uses chrome to send the email so you must have chrome installed in your pc in order to use it.
 You need to to download chromedriver.exe for the chrome version you are using from https://chromedriver.chromium.org/downloads and write the path of the file inside the script for the script to function.
