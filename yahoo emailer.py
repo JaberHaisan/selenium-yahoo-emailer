@@ -10,7 +10,7 @@ email_subject = input("Email Subject: ")
 email_body = input("Email body: ")
 print("\nSending Email...")
 
-browser = webdriver.Chrome(executable_path =r'')      # write path of chromedriver.exe here
+browser = webdriver.Chrome(executable_path =r'')      # write path of chromedriver.exe inside executable_path
 browser.get("https://login.yahoo.com/")
 email_elem = browser.find_element_by_id("login-username")
 email_elem.send_keys(host_email)
